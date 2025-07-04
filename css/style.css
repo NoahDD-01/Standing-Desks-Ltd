@@ -149,15 +149,16 @@ footer{
 }
 /* contact */
 .contactmain{
-    margin:10px 20px;
+    /* margin:10px 20px; */
+	justify-content: center;
     text-align:center;
     font-style: italic;
     background-color: rgba(160, 167, 231, 0.949);
 	background-image: linear-gradient(to bottom right, rgba(25, 32, 95, 0.949), rgba(159, 166, 232, 0.949));
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-	height: 150px;
-	padding:40px 0px;
+    /* border-radius: 5px; */
+	height: 200px;
+	padding:60px 0px;
 }
 .contactmain h3{
 	font-size: 50px;
@@ -172,6 +173,7 @@ footer{
 	align-items: center;
 	height: 100px;
 	gap: 100px;
+	background-color:rgba(149, 158, 232, 0.589);
 }
 .icon1{
     /* border: 1px solid black; */
