@@ -527,3 +527,24 @@ button {
     font-size: 20px;
     color: black;
 }
+/* Basket page */
+.basket_list{
+	display: flex;
+	justify-content: center;
+	border: 1px solid black;
+	margin: 20px;
+	padding: 10px;
+
+}
+.basket_list ul{
+	display: flex;
+	list-style: none;
+	gap: 250px;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 auto;
+}
+.basket_img{
+	width: 60px;
+	height: 60px;
+}
