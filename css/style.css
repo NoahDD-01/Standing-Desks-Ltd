@@ -174,7 +174,7 @@ footer{
 .desks_list h1{
     width: 100%;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     font-size: 60px;
 	text-shadow: 2px 2px #3fd3edc1;
 }
@@ -584,6 +584,8 @@ button {
 .box:hover input{
 	width: 400px;
 	background-color: white;
+	box-shadow: rgba(232, 76, 76, 0.975) 0px 3px 8px;
+	border-radius: 10px;
 }
 .box input{
 	width: 0;
@@ -598,7 +600,7 @@ button {
 	margin: 0px 2px;	
 }
 .box img{
-	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	box-shadow: rgb(224, 16, 16) 0px 3px 8px;
 	border-radius: 10px;
 	margin-top: 10px;
 	padding: 8px;
